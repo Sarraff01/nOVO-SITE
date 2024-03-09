@@ -9,3 +9,34 @@ body {
     background-color: var(--cor-de-fundo);
     color: var(--texto-1)
 }
+* {
+    margin: 0;
+    padding: 0;
+}
+.principal {
+    background-image: url("AdobeStock_87435736.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.container {
+    height: 120vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    background-color: var(--botao1);
+    border-radius: 15px;
+    padding: 1em;
+    color: var(--cor-de-fundo);
+    display: block;
+}
+.container__botao-2 {
+    background-color: transparent;
+    border: 2px solid var(--botao1);
+    border-radius: 15px;
+    padding: 1em;
+    color: var(--botao1);
+    display: block;
+}
