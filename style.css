@@ -3,11 +3,14 @@
     --botao: #434343;
     --botao1: #FFFFFF;
     --cor-de-fundo: #000000;
-
+    --fonte-principal: 'Chivo';
 }
 body {
     background-color: var(--cor-de-fundo);
-    color: var(--texto-1)
+    color: var(--texto-1);
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 400;
 }
 * {
     margin: 0;
@@ -31,6 +34,8 @@ body {
     padding: 1em;
     color: var(--cor-de-fundo);
     display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
 }
 .container__botao-2 {
     background-color: transparent;
@@ -39,4 +44,24 @@ body {
     padding: 1em;
     color: var(--botao1);
     display: block;
+}
+.container__aviso {
+font-size: 10px;
+color: var(--botao);
+}
+
+.container__titulo {
+    font-size: 15px;
+    font-weight: 600;
+
+
+}
+
+.container__imagem {
+    margin: 1em 0 2em  0;
+
+}
+
+.container__caixa {
+margin: 0 6em;
 }
