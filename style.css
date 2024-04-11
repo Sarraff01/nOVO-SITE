@@ -19,7 +19,7 @@ body {
 .principal {
     background-image: url("AdobeStock_87435736\ \(1\).png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 1500px;
     
 }
 .container {
@@ -64,4 +64,20 @@ color: var(--botao);
 
 .container__caixa {
 margin: 0 6em;
+}
+.container__secundario {
+    width: 20%;
+
+}
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+.container__secundario img{
+    width: 500px;
 }
