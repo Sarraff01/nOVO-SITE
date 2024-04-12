@@ -65,9 +65,12 @@ color: var(--botao);
 .container__caixa {
 margin: 0 6em;
 }
-.container__secundario {
-    width: 20%;
-
+.secundario__imagem {
+    width: 80%;
+}
+.secundario {
+    align-items: center;
+    margin: 0 10em;
 }
 .descricao__titulo {
     font-weight: 700;
@@ -75,9 +78,6 @@ margin: 0 6em;
     color: var(--branco-principal);
     margin-bottom: 0.1em;
 }
-.descricao__texto {
-    color: var(--cinza-secundario);
-}
-.container__secundario img{
-    width: 500px;
-}
+  .descricao__texto {
+      color: var(--cinza-secundario);
+  }
