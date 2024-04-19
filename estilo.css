@@ -53,6 +53,10 @@ a {
             font-weight: bold;
             font-size: 30px;
         }
+        .descricao h2 {
+            font-weight: bold;
+            font-size: 30px;
+        }
         .container-tres{
             margin-top: 200px ;
         }
@@ -60,23 +64,39 @@ a {
             color: white;
         }
         .descricao-texto {
-            margin-top: -200px;
+            margin-top: -20px;
             margin-left: 700px;
         }
         .botao-tres {
             background-color: white;
-            width: 200px;
-            color:black; 
-            margin-top: 850px;
+            width: 300px;
+            margin-left: 770px;
+            margin-top: 50px;
             border-radius: 10px;
-            padding: 20px 80px;
-            text-align: center;
+
+padding: 20px;
             font-size: 20px;
             font-weight: 500;
-           
+
             }
+
             .img-dois {
-                margin-top: 100px;
+                margin-top: 200px;
                 width: 500px;
                 margin-left: 90px;
             }
+            .botao-tres a {
+                color:black; 
+                margin: 20px;
+                text-align: center;
+            }
+            .descricao-dois {
+                color: white;
+                margin-left: 700px;
+                margin-top: -300px;
+                font-size: 30px;
+                }
+                .descricao-texto-dois {
+                    margin-top: 0px;
+                    margin-left: 700px;
+                }
