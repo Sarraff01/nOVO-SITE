@@ -65,12 +65,12 @@ a {
         }
         .descricao-texto {
             margin-top: -20px;
-            margin-left: 700px;
+            margin-left: -100px;
         }
         .botao-tres {
             background-color: white;
             width: 300px;
-            margin-left: 770px;
+            margin-left: 270px;
             margin-top: 50px;
             border-radius: 10px;
 
@@ -83,7 +83,7 @@ padding: 20px;
             .img-dois {
                 margin-top: 200px;
                 width: 500px;
-                margin-left: 90px;
+                margin-left: 900px;
             }
             .botao-tres a {
                 color:black; 
@@ -92,11 +92,26 @@ padding: 20px;
             }
             .descricao-dois {
                 color: white;
-                margin-left: 700px;
+                margin-left: 270px;
                 margin-top: -300px;
                 font-size: 30px;
                 }
                 .descricao-texto-dois {
                     margin-top: 0px;
-                    margin-left: 700px;
+                    margin-left: 270px;
+                }
+                .dispositivos {
+
+                    margin-top: 300px;
+                }
+                .titulo-dispositivos
+                {
+                    color: white;
+                    text-align: center;
+                    font-size: 39px;
+
+                }
+                .imagem-dis {
+                    margin-left: 250px;
+
                 }
