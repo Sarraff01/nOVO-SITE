@@ -131,7 +131,10 @@ padding: 20px;
                     color:white;
                     font-size: 14px;
                 }
-                .rodape__logo {
-                    width: 200px;
+                .rodape {
+                    text-align: center;
                 }
-            
+            .rodape a:hover {
+                background-color: white;
+                color: black;
+            }
